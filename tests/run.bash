@@ -23,7 +23,7 @@
   make --file ./plugins/dreck/makefile
 
   cd $actualArchive
-  7z e $actual/plugins/p7zip/generated/archive.zip
+  7z x $actual/plugins/p7zip/generated/archive.zip
   diff --brief --recursive $actualArchive $expectedArchive
   rm -r $actual/plugins/p7zip/generated
   diff --brief --recursive $actual $expected
