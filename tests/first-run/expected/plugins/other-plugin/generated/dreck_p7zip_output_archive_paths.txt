@@ -1,0 +1,1 @@
+./plugins/p7zip/generated/archive.zip

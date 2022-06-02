@@ -1,0 +1,6 @@
+[submodule "dreck"]
+	path = dreck
+	url = https://github.com/SUNRUSE/dreck
+[submodule "bats-core"]
+	path = bats-core
+	url = https://github.com/bats-core/bats-core
